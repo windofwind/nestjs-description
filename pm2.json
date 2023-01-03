@@ -1,6 +1,6 @@
 {
   "name": "nestjs-description",
-  "script": "./dist/apps/main.js",
+  "script": "./dist/main.js",
   "exec_mode": "cluster",
   "instances": "1",
   "log_date_format": "YYYY-MM-DD HH:mm Z",
