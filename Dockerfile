@@ -26,7 +26,7 @@ COPY --chown=node:node --from=build /app/config /app/config
 COPY --chown=node:node --from=build /app/node_modules /app/node_modules
 COPY --chown=node:node --from=build /app/.env /app/.env
 COPY --chown=node:node --from=build /app/pm2.json /app/pm2.json
-COPY --chown=node:node --from=build /app/sql /app/sql
+
 WORKDIR /app
 ENTRYPOINT ["pm2-runtime", "start", "pm2.json", "--env", "production"]
 CMD [""]
