@@ -66,4 +66,18 @@ Commands:
       └───────────────┴─────────────┴──────────────────────────────────────────────┘
 ```
 
+# file, class 등 naming 규칙
+
+- 파일명은 케밥 케이스를 사용합니다.
+- 클레스명은 대문자를 사용합니다.
+- interface, controller 등은 예) "xxx.interface.ts", "xxx.controller.ts" 로 명명합니다.
+
+# API 작성시 controller, module, service의 path 관리 규칙
+
+- controller 의 명에따라 폴더 구조로 나눕니다.
+
+# 공통 모듈 작성시
+
+- lib 폴더를 통해서 만듭니다.
+
 # cli generator 옵션 설명
